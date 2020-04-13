@@ -1,2 +1,2 @@
 # macspy
-COMP6841 19T1 Something Awesome Project
+COMP6841 20T1 Something Awesome Project
