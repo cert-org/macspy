@@ -17,10 +17,11 @@ Arguments in square brackets [] are optional.
 screenshot [--interval] weekday(mon|tues|wed|thurs|fri|sat|sun) startTime(HH:MM) endTime(HH:MM) [--frequency] HH:MM:SS
 ```
 Take a screenshot of the target's screen. There is the option to specfy both interval and frequency. Whereby a screenshot will be taken at startTime, followed by another screenshot at every interval specified by frequency, until endTime is reached.
+Times must be in 24h format.
 
 ### Webcam
 ```
-webcam [--time] weekday(mon|tues|wed|thurs|fri|sat|sun)
+webcam [--time] weekday(mon|tues|wed|thurs|fri|sat|sun) time(HH:MM)
 ```
 Take a photo with the target's webcam. If [--time] is specified, the photo will be taken at the next day and time that matches it.
 
