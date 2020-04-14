@@ -74,10 +74,6 @@ launchAgentConfig = textwrap.dedent(f"""\
             <string>{pythonInterpreter}</string>
             <string>{programFile}</string>
         </array>
-        <key>StandardOutPath</key>
-        <string>/Users/edward/Desktop/stdout.log</string>
-        <key>StandardErrorPath</key>
-        <string>/Users/edward/Desktop/stderr.log</string>
         <key>WorkingDirectory</key>
         <string>{programDirectory}</string>
 		<key>RunAtLoad</key>
